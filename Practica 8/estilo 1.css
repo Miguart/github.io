@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cuerpo{
+	background-color: #666666;
+	font-size: 36px;
+}
+
+#imagenes12{
+	margin-top: 4px;
+	width: 750px; 
+	height: 600px;
+	moz-border-radius: 20px 20px 20px 20px;
+	webkit-border radius: 20px 20px 20px 20px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#celdaimg12{
+	text-align:center;
+}
+
+#imgX4{
+	width: 220px;
+	height: 150px;
+}
+

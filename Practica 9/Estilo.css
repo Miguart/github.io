@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Encabezado{
+	background-color:#F00;
+	height: 60px;
+	width: 480px;
+	moz-border-radius: 20px 20px 20px 20px;
+	webkit-border radius: 20px 20px 20px 20px;
+	border-radius: 20px 20px 20px 20px;
+}
+#Navegacion{
+	background-color:#2A00FF;
+	height: 120px;
+	width: 160px;
+	moz-border-radius: 20px 20px 20px 20px;
+	webkit-border radius: 20px 20px 20px 20px;
+	border-radius: 20px 20px 20px 20px;
+}
+#Aside{
+	background-color:#0FF;
+	height: 120px;
+	width: 160px;
+	moz-border-radius: 20px 20px 20px 20px;
+	webkit-border radius: 20px 20px 20px 20px;
+	border-radius: 20px 20px 20px 20px;
+}
+#Articulo1{
+	background-color:#FF0;
+	height: 60px;
+	width: 160px;
+}
+#Articulo2{
+	background-color:#FF0;
+	height: 60px;
+	width: 160px;
+}
+#Pie_de_Pagina{
+	background-color:#FF3FFF;
+	height: 60px;
+	width: 480px;
+	moz-border-radius: 20px 20px 20px 20px;
+	webkit-border radius: 20px 20px 20px 20px;
+	border-radius: 20px 20px 20px 20px;
+}

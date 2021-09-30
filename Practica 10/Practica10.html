@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="Practica10estilo.css">
+
+
+<script type="text/javascript" language="javascript">
+function mostrar(id){
+		var imagen = document.getElementById(id);
+		imagen.style.display='';
+}
+function ocultar(id){
+		var imagen = document.getElementById(id);
+		imagen.style.display='none';
+}
+</script>
+</head>
+
+<body id="cuerpo">
+<div class="box1">
+<img  src="Imagenes/elotito.png" id="Logoelotito">
+
+<ul id="menu-horizontal" > 	  
+
+	  <li><a href="" target="_blank">Inicio</li>
+ 	  <li><a href="" target="_blank">Acerca de Nosotros</li>
+ 	  <li><a href="" target="_blank">Servicios</li>
+ 	  <li><a href="" target="_blank">Productos</li>
+      <li><a href="" target="_blank">Contacto</li>
+</ul>
+</div>
+
+<div class="box2">
+<img src="Imagenes/117697.png" id="imagen1" style="display:none">
+<img src="Imagenes/190875.jpg" id="imagen2" style="display:none">
+<img src="Imagenes/17361.jpg" id="imagen3" style="display:none">
+<img src="Imagenes/18659.jpg" id="imagen4" style="display:none">
+</div>
+
+<div class="box3" > 
+<img src="Imagenes/117697.png" id="imggrupo1" onmouseover="mostrar('imagen1')" onmouseout="ocultar('imagen1')">
+<img src="Imagenes/190875.jpg" id="imggrupo2" onmouseover="mostrar('imagen2')" onmouseout="ocultar('imagen2')">
+<img src="Imagenes/17361.jpg" id="imggrupo3" onmouseover="mostrar('imagen3')" onmouseout="ocultar('imagen3')">
+<img src="Imagenes/18659.jpg" id="imggrupo4" onmouseover="mostrar('imagen4')" onmouseout="ocultar('imagen4')">
+</div>
+
+<div class="box4">
+  <p>&nbsp;</p>
+  <p>&nbsp;</p><p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+<div class="box5">
+	<p>&nbsp;</p>
+</div>
+</body>
+</html>
